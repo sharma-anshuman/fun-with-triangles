@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300&display=swap');
+
 :root{
     --blue: #2563eb;
     --gray: gray;
@@ -5,7 +7,7 @@
 }
 
 body{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'IBM Plex Serif', serif;
     margin: 0px;
 }
 
@@ -21,7 +23,11 @@ body{
 }
 
 .navigation .nav-brand{
-    font-weight: bold;
+    text-align: left;
+    margin-left: 1%;
+    font-weight: 50;
+    font-size: xx-large;
+    font-weight: normal;
 }
 
 .navigation .link{
@@ -43,8 +49,9 @@ body{
 }
 
 .list-item-inline{
+    font-size: large;
     display: inline-block;
-    padding: 0rem 0.5rem;
+    padding: 0rem 0.3rem;
 }
 
 .link{
@@ -63,6 +70,7 @@ input{
 }
 
 .head-angle{
+    color: blue;
     font-weight: 500;
     margin-bottom: 0.6rem;
 }
