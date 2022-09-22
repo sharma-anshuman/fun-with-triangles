@@ -9,6 +9,7 @@
 body{
     font-family: 'IBM Plex Serif', serif;
     margin: 0px;
+    text-align: center;
 }
 
 .container {
@@ -65,8 +66,9 @@ input{
     padding: 0.1rem;
     height: 1.7rem;
     font-size: large;
-    width: 10rem;
-    margin-bottom: 1rem;
+    size: 10rem;
+    /* width: 10rem;    
+    margin-bottom: 1rem; */
 }
 
 .head-angle{
@@ -117,3 +119,51 @@ input{
 .footer ul{
     padding-inline-start: 0px;
 }
+
+.question-bank{
+    text-align: center;
+}
+
+/* input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 1px;
+    padding: initial;
+    border: initial;
+} */
+
+.ip-mcq{
+    height: 0.8rem;
+}
+.ip-label{
+    margin: 1rem;
+}
+
+.question-bank{
+    max-width: 50%;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: larger;
+}
+.question-bank p{
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.btn-submit{
+    width: 10rem;
+    cursor: pointer;
+}
+
+.ques{
+    font-style: bold;
+    margin-bottom: 2.5rem;
+}
+
+.op-text{
+    margin-bottom: 2rem;
+}
+
